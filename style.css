@@ -1,0 +1,1097 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+  
+/* .........page -> 1 start......... */
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.nav-contain{
+    width: 100%;
+    height: 10%;
+    /* background-color:grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    /* position: fixed; */
+   
+}
+
+.nav-left{
+    margin-left: 5vmax;
+    /* margin-bottom: 82vmax;    */
+    /* font-size: 10px; */
+
+}
+
+.aut-h1{
+    color: rgb(63, 62, 62);
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    letter-spacing: 9px;
+
+}
+
+.nav-right{
+    margin-right: 5vmax;
+}
+
+.nav-right a{
+    text-decoration: none;
+    padding: 2vmax;
+    font-size: 19px;
+    color: rgb(60, 58, 58);
+}
+
+.button-subscribe{
+    padding: 6px 28px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button-subscribe:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contain-second{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    background-image: url(https://static.wixstatic.com/media/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg/v1/fill/w_1519,h_840,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+    /* background-attachment: fixed; */
+    
+
+}
+
+.future-h1{
+    margin-top: 6.5vmax;
+    margin-left:32vmax;
+    font-size: 60px;
+    position: absolute;
+    font-weight: 350;
+    gap: 20px;
+    /* word-spacing: 15px;  */
+    letter-spacing:6px;
+}
+
+.mob-h1{
+    margin-top:12vmax;
+    margin-left:29vmax;
+    font-size: 60px;
+    position: absolute;
+    font-weight: 350;
+    /* word-spacing: 30px;  */
+    letter-spacing:8px;
+}
+
+.discover-h4{
+    position: absolute;
+    margin-top :18.9vmax;
+    margin-left:27.5vmax;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing:1px;
+}
+
+/* .........page -> 1 End......... */
+
+/* .........page -> 2 start......... */
+
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* background-color: red; */
+}
+
+.contain-p2-01{
+    width: 100%;
+    height: 150%;
+    background: linear-gradient(rgb(81, 79, 79),black,black);
+    background-color:black; 
+    text-align: center;
+    
+}
+
+.contain-p2-02{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p2-box-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: red;  */
+}
+
+.vision-h1{
+    color: white;
+    margin-top: 29vmax;
+    margin-right: 19vmax;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.we-h2{
+    margin-top: 2vmax;
+    /* margin-left: 10vmax; */
+    margin-left: 14vmax;
+    color: white;
+    font-weight: 100;
+    position: absolute;
+}
+
+.im-h4{
+    /* width: 50%; */
+    /* margin-right: 8vmax; */
+    margin-top: 11vmax;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 3vmax; 
+    /* background-color: goldenrod;    */
+}
+
+
+.p2-box-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.img-car{
+    margin-top:25vmax;
+    
+}
+
+/* .........page -> 2 End......... */
+
+/* .........page -> 3 start......... */
+
+.page3{
+    width: 100%;
+    height: 150%;
+    background: linear-gradient(black,rgb(4, 4, 4),white,);
+}
+
+.contain-p3{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1-p3{
+    width: 50%;
+    height: 120%;
+    /* background-color: brown;  */
+    /* position: absolute; */
+    margin-top: 22.5vmax;
+    display: flex;
+}
+
+.ser-h1{
+    /* color: white; */
+    margin-top: 11vmax;
+    margin-left: 14vmax;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.deliver-p{
+    margin-left: 14vmax;
+    position: absolute;
+    margin-top:15.5vmax;    
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.auton-h1{
+    position: absolute;
+    margin-top: 40vmax;
+    margin-left: 10vmax;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 100;
+
+}
+
+.here-p{
+    margin-top: 50vmax;
+    /* margin-right: 8vmax; */
+    margin-left: 10vmax;
+    position: absolute;
+    word-spacing: 5px;
+}
+
+.read-button{
+    position: absolute;
+    margin-top: 62vmax;
+    margin-left: 9.9vmax;
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.read-button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.box2-p3{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    margin-top: 22.5vmax;
+    display: flex;
+    position: relative;
+}
+
+.img-2{
+    position: absolute;
+    margin-top: 32vmax;
+}
+
+
+/* .........page -> 3 End......... */
+
+/* .........page -> 4 start......... */
+
+.page4{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* position: absolute; */
+    margin-top: 30vmax;
+}
+
+.contain-p4{
+    width: 100%;
+    height: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1-p4{
+    width: 50%;
+    height: 100%;
+    background-color: maroon;
+    background-image: url(https://static.wixstatic.com/media/84770f_abca8ce0bac24971a57d1f9d40b8238b~mv2.jpg/v1/fill/w_950,h_850,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_abca8ce0bac24971a57d1f9d40b8238b~mv2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2-p4{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(60, 57, 57); */
+}
+
+.reali-h1{
+    font-weight: 300;
+    margin-top: 8vmax;
+    margin-left: 13vmax;
+}
+
+.p-b2-p4{
+    margin-top: 2.9vmax;
+    margin-left: 13vmax;
+    font-weight: 100;
+}
+
+.butt-b2-p4{
+    /* position: absolute; */
+    margin-top: 2vmax;
+    margin-left: 13vmax;
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.butt-b2-p4:hover{
+    color: white;
+    background-color: black;
+}
+
+/* .........page -> 4 End......... */
+
+/* .........page -> 5 start......... */
+
+.page5{
+    width: 100%;
+    height: 100%;
+    /* background-color: maroon; */
+}           
+
+.contain-p5{
+    width: 100%;
+    height: 100%;
+    /* background-color: darkgrey; */
+    display: flex;
+    justify-content: space-evenly
+}
+
+.box1-contain-p5{
+    width: 50%;
+    height: 100%;
+   display: flex;
+   /* background-color: bisque; */
+}
+
+.box1-h1-p5{
+    margin-top: 9vmax;
+    margin-left: 10vmax;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.box1-p-p5{
+    margin-top: 18vmax;
+    margin-left: 10vmax;
+    font-weight: 100;
+    position: absolute;
+}
+
+.box1-butt-p5{
+    margin-top: 30vmax;
+    margin-left: 10vmax;
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.box1-butt-p5:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.box2-contain-p5{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* background-color: blueviolet; */
+    background-image: url(https://static.wixstatic.com/media/c837a6_305ff8a7722a479ab58f1d4f2729586e~mv2.jpg/v1/fill/w_950,h_850,al_l,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_305ff8a7722a479ab58f1d4f2729586e~mv2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ........page 6 start.......... */
+
+.page6{
+    width: 100%;
+    height: 100%;
+    background-color: maroon;
+    /* background-attachment: fixed; */
+    
+}
+
+.contain-p6{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.verdict.co.uk/wp-content/uploads/2018/08/AI-in-cars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p6-containp6-box{
+    width: 30%;
+    height: 90%;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 10vmax;
+    margin-top: 2.5vmax;
+    position: absolute;
+}
+
+.p6-cont-p6-h4{
+    color: white;
+    margin-top: 4vmax;
+    margin-left: 6vmax;
+    font-weight: 100;
+}
+
+.p6-cont-p6-h2{
+    color: white;
+    margin-top: 2.5vmax;
+    margin-left: 6vmax;
+    font-weight: 100;
+}
+
+.p6-cont-p6-p{
+    color: white;
+    margin-top: 3vmax;
+    margin-left: 6vmax;
+    font-weight: 100;
+}
+
+.p6-cont-p6-butt{
+    /* color: white; */
+    margin-top: 4vmax;
+    margin-left: 6vmax;
+    font-weight: 100;
+    color: white;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.p6-cont-p6-butt:hover{
+    color: black;
+    background-color: white;
+}
+
+/* .........page -> 6 End......... */
+
+
+/* ........page 7 start.......... */
+
+.page7{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.contain-p7{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p7-con-box1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* background-color: lightseagreen; */
+    background-image: url(https://static.wixstatic.com/media/c837a6_3a4f054db4424af1b034f96ddd7b691a~mv2.jpg/v1/fill/w_950,h_950,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_3a4f054db4424af1b034f96ddd7b691a~mv2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p7-con-box2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+    font-size: 12px;
+}
+
+.p7-con-box2-h1{
+      font-weight: 350;
+      margin-top: 5vmax;
+      margin-left: 10vmax; 
+      letter-spacing: 4px;
+    }
+
+    .p7-con-box2-h2{
+      font-weight: 400;
+      margin-top: 11.5vmax;
+      position: absolute;
+      margin-left: 10vmax;
+      font-size: 35px;
+      letter-spacing: 4px;
+
+    }
+
+    .p7-con-box2-h3{
+        position: absolute;
+        margin-top: 18vmax;
+        margin-left: 10vmax;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+
+    .p7-con-box2-h-22{
+        position: absolute;
+        margin-top: 11.2vmax;
+        margin-left: 25vmax;
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    .p7-con-box2-h-33{
+        position: absolute;
+        margin-top: 18vmax;
+        margin-left: 25vmax;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+
+    .p7-con-box2-h-2{
+        position: absolute;
+        margin-top: 23vmax;
+        margin-left: 10vmax;
+        font-weight: 400;
+        font-size: 35px;
+        letter-spacing: 4px;
+    }
+
+    .p7-con-box2-h33{
+        position: absolute;
+        margin-top: 30vmax;
+        margin-left: 10vmax;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+
+    .p7-con-box2-h2pb{
+        position: absolute;
+        margin-top: 23vmax; 
+        margin-left: 25vmax;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-size: 35px;
+    }
+
+    .p7-con-box2-h3-3{
+        position: absolute;
+        margin-top: 30vmax;
+        margin-left: 25vmax;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+
+/* .........page -> 7 End......... */
+
+/* .........page -> 8 start......... */
+
+.page8{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.contain-p8{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p8-con8-box1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+}
+
+.p8-con8-box1-h5{
+    color: white;
+    margin: 9vmax;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing:3px;
+}
+
+.con8-box1-h3{
+    color: white;
+    position: absolute;
+    margin-top:13vmax;
+    margin-left:9vmax;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing:3px;
+    font-weight: 400;
+}
+
+.p8-con8-box1-p{
+    position: absolute;
+    margin-top:20vmax;
+    margin-left:9vmax;
+    color: white;
+    font-size: 17px;
+    word-spacing: 5px;
+    font-weight: 300;
+}
+
+.p8-con8-box2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(240, 84, 84);
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+/* parent of box one-p08 */
+.one-p08{
+    width: 100%;
+    height: 50%;
+    background-color: burlywood;
+    /* flex-direction: row-reverse; */
+    display: flex;
+    justify-content: space-evenly;
+}
+/* parent of box one-p08 */ 
+
+.one-p-8-box00001{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.p8-box0img1{
+    /* margin: 4vmax; */
+    margin-left: 5.9vmax;
+    margin-top: 5vmax;
+}
+
+.p8-box0img-0h-4{
+    margin-left: 6vmax;
+    margin-top: 2vmax;
+    color: white; 
+    font-weight: 100;
+}
+
+
+.two-p-8-box00002{
+    width: 50%;
+    height: 100%;
+    background-color:black;
+}
+
+.box-two-p8-img0{
+    margin-left: 7vmax;
+    margin-top: 6vmax;
+}
+
+.idi-h4-p8{
+    margin-left: 8vmax;
+    margin-top: 6vmax;
+    color: white; 
+    font-weight: 100;
+    font-size: 17px;
+    /* background-color: green; */
+}
+
+/* parent of box two-p08 */
+.two-p08{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* parent of box two-p08 */
+
+.three-p-8-box00003{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+}
+
+.p8-three-boximg{
+    margin-top: 3vmax;
+    margin-left: 8vmax;
+}
+
+.imogen-p8-thr-h04{
+    margin-left: 8vmax;
+    margin-top: 14vmax; 
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+
+
+.four-p-8-box00004{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+}
+
+.p8-boxfour-img{
+  margin-top: 4vmax;
+  margin-left: 5vmax;
+
+}
+
+.p8-fourth-h04{
+    position: absolute;
+    margin-top: 14vmax;
+    margin-left: 9vmax;
+    color: white;
+    font-weight: 100;
+    font-size: 17   px;
+}
+
+/* .........page -> 8 End......... */
+
+/* .........page -> 9 start......... */
+
+.page9{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* display:flex; */
+    /* justify-content: space-evenly; */
+}
+
+.contain-009{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-01-p009{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(14, 107, 107); */
+}
+
+.box-01-p009-h00-3{
+    margin-top: 9vmax;
+    margin-left: 11vmax;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+    letter-spacing: 3px;
+}
+
+.box-01-p009-010-p{
+    margin-top: 13vmax;
+    margin-left: 11vmax;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+
+
+.p9-box00000-1--but09{
+    position: absolute;     
+    margin-top: 27vmax;
+    margin-left: 11vmax;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.p9-box00000-1--but09:hover{
+    color: black;
+    background-color: white;
+}
+
+.box-02-p009{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color:black;
+}
+
+.box2-inside-box-p9{
+    width: 27%;
+    height: 80%;
+    background-color: black;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 13vmax;
+    margin-top: 4.4vmax;
+}
+
+.inside-box-p9-h04{
+    color: white;
+    font-weight: 100;
+    margin: 3vmax;
+    letter-spacing:1px; 
+}
+
+.inside-box-p9-h04{
+    color: white;
+    font-weight: 100;
+    margin-top:5vmax;
+    margin-left: 3vmax;
+    letter-spacing:4px;
+}
+
+.inside-box-p9-h00ppp{
+    color: white;
+    margin-left:3vmax;
+    font-weight: 100;
+}
+
+.inside-box-p9-butt09{
+    margin-top: 5vmax;
+    margin-left: 3vmax;
+    padding: 8px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    /* font-size: 15px; */
+}
+
+.inside-box-p9-butt09:hover{
+    color:black;
+    background-color: white;
+}
+
+/* .........page -> 9 End......... */
+
+/* .........page -> 10 start......... */
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-box-1{
+    width: 50%;
+    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:rgb(58, 72, 58); */
+}
+
+
+.box-1-element{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.footer-box-1-h3{
+    font-weight: 100;
+    color: rgb(165, 160, 160);
+    letter-spacing: 10px;
+    margin-left: 10vmax;
+    margin-top: 8vmax;
+    font-size: 20px;
+} 
+
+#foot-box1-h5{
+   position: absolute;
+   margin-top: 15vmax;
+   margin-left: 10vmax;
+   font-size: 17px;
+   font-weight: 100;
+}
+
+#foot-box1-h005{
+   position: absolute;
+   margin-top: 20vmax;
+   margin-left: 10vmax;
+   font-size: 17px;
+   font-weight: 100;
+}
+
+#foot-box1-h0005{
+    position: absolute;
+    margin-top: 25vmax;
+   margin-left: 10vmax;
+   font-size: 17px;
+   font-weight: 100;
+}
+
+
+
+.box-2-element{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(180, 180, 240); */
+}
+
+#foot-box2-h5{
+    margin-top: 15vmax;
+    margin-left: 2vmax;
+    position: absolute;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+#foot-box2-h005{
+     position: absolute;
+     margin-top: 20vmax;
+     margin-left: 11vmax;
+     font-size: 17px;
+     font-weight: 100;
+}
+
+#foot-box2-h0005{
+    position: absolute;
+     margin-top: 25vmax;
+     margin-left: 12vmax;
+     font-size: 17px;
+     font-weight: 100;
+}
+
+
+#text-x-Gang{
+    position: absolute;
+    margin-top: 39vmax;
+    margin-left: 10vmax;
+    font-weight: 100;
+    
+}
+
+#logo-x-gang{
+    position: absolute;
+    margin-top: 38.5vmax;
+    margin-left: 17.5vmax;
+}
+
+
+.footer-box-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(235, 79, 79); */
+}
+
+#footer-b0x2-h1{
+    margin: 14.5vmax;
+    font-weight:100;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#footer-b0x2-h2{
+    position: absolute;
+    margin-top: 19vmax;
+    margin-left: 14.5vmax;
+    font-weight:100;
+    font-size: 17px;
+}
+
+
+#footer-b0x2-h3{
+    position: absolute;
+    margin-top: 24vmax;
+    margin-left: 14.5vmax;
+    font-weight:100;
+}
+
+#inp-search{
+    position: absolute;
+    margin-top: 28vmax;
+    margin-left: 14.5vmax;
+    font-weight:100;
+    padding: 8px 18px;
+    border: 2px solid black;
+    /* background-color: black; */
+    border-radius: 10px;
+}
+
+
+
+#footer-b0x2-butt{
+    position: absolute;
+    margin-top: 28vmax;
+    margin-left: 26vmax;
+    font-weight:100;
+    padding: 8px 18px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+}
+
+#footer-b0x2-butt:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+#linkin-img{
+   margin-top: 40vmax;
+   position: absolute;
+   margin-left: 29.2vmax;
+}
+
+
+#facebook-img{
+    margin-top: 40.3vmax;
+    position: absolute;
+    margin-left: 34vmax;
+}
+
+
+#twitter-img{
+    margin-top: 40.3vmax;
+    position: absolute;
+    margin-left: 38vmax;
+}
+
+
+#instagram-img{
+    margin-top: 40vmax;
+    position: absolute;
+    margin-left: 42vmax;
+}
+
+/* .........page -> 10 End......... */
